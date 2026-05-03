@@ -1,4 +1,5 @@
---- 
+---
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -18,7 +19,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: tejas819/backend:fe3de493379298dd577299bdfce04e31e205550d
+          image: tejas819/backend:7168a0a23bac20a5ef74ed366b3815ad44522dac
           ports:
             - containerPort: 5000
           env:
