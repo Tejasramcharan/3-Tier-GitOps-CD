@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: tejas819/backend:latest
+          image: tejas819/backend:fe3de493379298dd577299bdfce04e31e205550d
           ports:
             - containerPort: 5000
           env:
