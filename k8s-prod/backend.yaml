@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: tejas819/backend:286c358739386d703b02dd78760271139e9cb4a1
+          image: tejas819/backend:21dc5baf31f23e41be88bbfffab6c1aff0fa2f73
           ports:
             - containerPort: 5000
           env:
