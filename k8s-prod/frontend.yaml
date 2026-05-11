@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: tejas819/frontend:7168a0a23bac20a5ef74ed366b3815ad44522dac
+          image: tejas819/frontend:ba3a9cf0ee19ed83f3d457ffd2a2575006b06b01
           ports:
             - containerPort: 80
 ---
